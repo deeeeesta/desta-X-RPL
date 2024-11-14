@@ -1,0 +1,15 @@
+PSEUDOCEDE STUDY KASUS 4
+NAMA : DESTA PUTRA WALUYA 
+KELAS : X RPL
+
+total
+if total >=100.000 AND total <=300.000 then
+	print (selamat mendapat diskon 10%)
+	total = total - (total*0.1)
+else total >=300.000 AND total <=500.000 then
+	print (selamat mendapat diskon 20%)
+	total = total - (total*0.2)
+else total >=500.000 then
+	print (selamat mendapat diskon 25%)
+	total = total - (total*0.25)
+endif (total)
